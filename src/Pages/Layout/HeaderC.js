@@ -47,9 +47,9 @@ const HeaderC = ({
           <Avatar
             className="user-icon"
             size="30%"
-            src={currentUser.userImage}
+            src={currentUser?.userImage}
           />
-          <p>{currentUser.userName}</p>
+          <p>{currentUser?.userName}</p>
         </Button>
         <Badge className="cart-btn" count={productsInCart.length} onClick={() => navigate("cart")}>
           <ShoppingCartOutlined
