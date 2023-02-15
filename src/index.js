@@ -10,7 +10,7 @@ import { initAxios } from './Axios';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 initAxios();
 root.render(
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter>
       <StyleProvider hashPriority="high">
         <App />
       </StyleProvider>
