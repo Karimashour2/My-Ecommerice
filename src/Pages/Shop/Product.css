@@ -1,0 +1,35 @@
+.product-container{
+  width: 240px;
+  margin: 20px 10px !important;
+  position: relative; 
+  height: 310px; 
+}
+
+.product-image{
+  height: 200px;
+  background-size: cover;
+}
+
+.product-price{
+  color: red;
+  font-weight: 600;
+  margin: 0;
+}
+
+.product-title{
+  color: #464d69;
+  font-weight: 600;
+  margin: 0;
+}
+.product-title:hover,.product-description:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.product-description{
+  color: #464d69;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

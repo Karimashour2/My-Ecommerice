@@ -1,0 +1,63 @@
+@media only screen and (min-width: 600px){
+.img-container {
+  height: 100vh !important  
+}
+.dotsStyle button{
+  background-color: rgba(0, 0, 0, 0.6) !important
+}
+h1{
+  font-size: 2.5em;
+  text-align: center;
+  color: rgb(24, 53, 83);
+  margin-top: 20%;
+  margin-bottom: 15%;
+}
+.login-form{
+  width: 70%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.container{
+  margin: 0 !important;
+}
+.sign-in-background{
+  display: none;
+}
+}
+
+
+@media only screen and (max-width: 600px){
+.img-container {
+  height: 100vh !important  
+}
+.dotsStyle button{
+  background-color: rgba(0, 0, 0, 0.6) !important
+}
+h1{
+  font-size: 2.5em;
+  text-align: center;
+  color: rgb(24, 53, 83);
+  margin-top: 20%;
+  margin-bottom: 15%;
+}
+.login-form{
+  width: 70%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.container{
+  margin: 0 !important;
+  height: 100vh;
+  position: relative;
+}
+.sign-in-background{
+  width: 100% !important;
+  height: 95% !important;
+  position: absolute !important;
+  left: 30px;
+  top: 20px;
+}
+.form-col{
+  z-index: 1;
+}
+}

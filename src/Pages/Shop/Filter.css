@@ -1,0 +1,44 @@
+
+/* For Desktop Screen */
+@media only screen and (min-width: 600px){
+  .filter-container{
+    width: 100%;
+    padding: 0;
+    margin-top: 10px !important;
+  }
+  
+  .filter-searchbar{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .filter-list{
+    height: 200px;
+  }
+  
+  .filter-item{
+    display: flex;
+    justify-content: space-between !important;
+    padding: 0 10px;
+  }
+  
+  .item-checkbox{
+    width: 100%;
+  }
+  
+  .products-count{
+    background-color: #dfe2ee;
+    width: 20px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+}
+
+
+@media only screen and (max-width: 600px){
+
+}

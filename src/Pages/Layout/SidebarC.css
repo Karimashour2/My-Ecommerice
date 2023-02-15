@@ -1,0 +1,100 @@
+@media only screen and (min-width: 600px){
+  .main-title{
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightblue;
+    font-size: 1.5em;
+  }
+  
+  .sidebar{
+    position: relative;
+  }
+  .user-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: lightblue;
+    font-size: 1.2em;
+  }
+  
+  .user-info p {
+    margin: 0;
+  }
+  
+  .nav-menu{
+    margin-top: 30px !important;
+  }
+  .sign-out-btn{
+    z-index: 100;
+    position: fixed !important;
+    bottom: 20px !important;
+    width: 60px !important;
+    height: 60px !important;
+    left: 70px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: transparent !important;
+    color: #1677ff !important;
+    border-color: transparent !important;
+  }
+  .sign-out-btn .sign-out-icon {
+    font-size: 2em !important;
+  }
+  .hide-btn{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .sidebar{
+    max-width: 25% !important;
+    min-width: 0 !important;
+    width: 25% !important;
+  }
+  .main-title{
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightblue;
+    font-size: 1.1em;
+  }
+  .menu-item{
+    padding-left: 5px !important;
+    padding-right: 0 !important;
+
+  }
+  .user-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    color: lightblue;
+    font-size: 1.2em;
+  }
+  .user-info{
+    text-align: center;
+  }
+  .sign-out-btn{
+    z-index: 100;
+    position: fixed !important;
+    bottom: 20px !important;
+    width: 30px !important;
+    height: 30px !important;
+    left: 35px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-color: transparent !important;
+    color: #1677ff !important;
+    border-color: transparent !important;
+  }
+  .sign-out-btn .sign-out-icon {
+    font-size: 2em !important;
+  }
+  .hide-btn{
+    display: none;
+  }
+}

@@ -1,0 +1,77 @@
+@media only screen and (min-width: 600px){
+  .chechout-container{
+    height: calc(100vh - 178px);
+    justify-content:space-between;
+    position: relative;
+  }
+  .user-tabs div:first-child{
+    width: 99% !important;
+  }
+  .user-tabs{
+    background-color: #fafafa;
+    border-radius: 10px 10px 0 0;
+    padding: 0 10px  !important;
+  }
+  .user-data-area{
+    max-width: 62.5% !important; 
+  }
+  .confirmed-products{
+    max-width: 33.333% !important;
+    border-radius: 10px !important;
+    height: 100% !important;
+  }
+  .ant-tabs-tab{
+    width: 100%;
+  }
+  .desc-item div span{
+    font-family: heebo ,sans-serif !important;
+    font-weight: 700 !important;
+    color: #464d69 !important;
+    font-size: 1.2em !important;
+  }
+  .desc-item div span:last-child{
+    display: block !important;
+    text-align: end !important;
+  }
+  .place-oreder-btn{
+    width: 100px;
+    position: absolute;
+    bottom: 50px;
+    left: calc(50% - 100px);
+  }
+
+}
+@media only screen and (max-width: 600px){
+  .chechout-container{
+
+    justify-content: center;
+    width: 95%;
+  }
+  .user-tabs div:first-child{
+    width: 99% !important;
+  }
+  .ant-tabs-tab{
+    width: 100%;
+  }
+  .confirmed-products{
+    border-radius: 10px !important;
+  }
+  .desc-item div span{
+    font-family: heebo ,sans-serif !important;
+    font-weight: 700 !important;
+    color: #464d69 !important;
+    font-size: 1.2em !important;
+  }
+  .desc-item div span:last-child{
+    display: block !important;
+    text-align: end !important;
+  }
+  .place-oreder-btn{
+    margin-bottom: 20px;
+  }
+  .show-product-image{
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+  }
+}

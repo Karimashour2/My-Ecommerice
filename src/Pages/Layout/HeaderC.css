@@ -1,0 +1,81 @@
+
+
+@media only screen and (min-width: 600px){
+  .header {
+    padding: 0px 20px 0px 10px !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .trigger {
+    font-size: 2em;
+    color: #001529;
+  }
+  
+  .search-bar {
+    width: 40% !important;
+  }
+  
+  .user-page-btn {
+    display: flex !important;
+    width: 50%;
+    align-items: center;
+    justify-content: space-between !important;
+    padding: 0 5px 0 5px !important;
+  }
+  .cart-btn{
+    margin-right: 30px !important;
+  }
+  .header-items{
+    width: 20%;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+
+@media only screen and (max-width: 600px){
+  .header {
+    padding: 0px 20px 0px 10px !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .trigger {
+    font-size: 1.5em;
+    color: #001529;
+  }
+  
+  .search-bar {
+    width: 60% !important;
+  }
+  
+  .user-page-btn {
+    display: flex !important;
+    width: 60%;
+    align-items: center;
+    justify-content: space-between !important;
+    padding: 0 !important;
+  }
+  .user-page-btn p{
+    display: none;
+  }
+  
+  .sign-out-btn{
+    width: 30%;
+    display:flex;
+    justify-content:center;
+  }
+  .header-items{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
