@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/My-Ecommerice/static/css/main.7b21e6a2.css",
+    "main.js": "/My-Ecommerice/static/js/main.12695096.js",
+    "static/media/img2.png": "/My-Ecommerice/static/media/img2.39558ea7ecd8214fecd3.png",
+    "static/media/img3.png": "/My-Ecommerice/static/media/img3.75754105c7718348e726.png",
+    "static/media/img1.png": "/My-Ecommerice/static/media/img1.b40bab6bcb6d3d2710e4.png",
+    "static/media/sign-in-bg.jpg": "/My-Ecommerice/static/media/sign-in-bg.1ab388e6802bd107a619.jpg",
+    "index.html": "/My-Ecommerice/index.html",
+    "main.7b21e6a2.css.map": "/My-Ecommerice/static/css/main.7b21e6a2.css.map",
+    "main.12695096.js.map": "/My-Ecommerice/static/js/main.12695096.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b21e6a2.css",
+    "static/js/main.12695096.js"
+  ]
+}
