@@ -9,7 +9,7 @@ import { useEffect } from "react";
 import './LayOut.css';
 import './HeaderC.css';
 
-const currentUser= JSON.parse(localStorage.getItem('user'))
+
 
 const LayOut = () => {
   const [searchInput, setSearchInput] = useState("");
@@ -28,6 +28,7 @@ const LayOut = () => {
     setCurrent(router.pathname)
   }, [router.pathname])
 
+  const currentUser= JSON.parse(localStorage.getItem('user'))
 
   const {
     token: { colorBgContainer },
