@@ -28,7 +28,7 @@ const LayOut = () => {
     setCurrent(router.pathname)
   }, [router.pathname])
 
-  const currentUser= JSON.parse(localStorage.getItem('user'))
+  const currentUser= JSON.parse(localStorage.getItem('user'));
 
   const {
     token: { colorBgContainer },

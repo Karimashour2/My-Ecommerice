@@ -24,7 +24,8 @@ const SignIn = () => {
   const navigate = useNavigate();
   const onSubmit=(values)=>{
     axios.post('https://dummyjson.com/auth/login', values).then((res)=> {
-      localStorage.setItem('user',JSON.stringify({token: res.data.token,
+      localStorage.setItem('user',JSON.stringify({
+        token: res.data.token,
         userImage: res.data.image,
         userFirstName: res.data.firstName,
         userLastName: res.data.lastName,
