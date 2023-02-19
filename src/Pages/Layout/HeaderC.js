@@ -17,12 +17,13 @@ const HeaderC = ({
   collapsed,
   searchInput,
   productsInCart,
-  currentUser,
 }) => {
   const navigate = useNavigate();
   const {
     token: { colorBgContainer },
   } = theme.useToken();
+
+  const currentUser= JSON.parse(localStorage.getItem('user'));
 
   return (
     <Header className="header" style={{ background: colorBgContainer }}>
